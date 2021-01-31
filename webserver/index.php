@@ -143,20 +143,7 @@
 					  row.setAttribute('fill', '#ffffff'); // white
 				  }
 				}
-				
-				
-				
-				// Array.prototype.forEach.call(rects, function(rect) {
-				  // // make sure rect is a background row
-				  // if ((rect.getAttribute('x') === '0') && (rect.getAttribute('stroke') === 'none')) {
-					// // determine existing color
-					// if (rect.getAttribute('fill') === '#ffffff') {
-					  // rect.setAttribute('fill', 'cyan');
-					// } else {
-					  // rect.setAttribute('fill', 'magenta');
-					// }
-				  // }
-				// });
+
 			  });
             
             chart.draw(data, options);
